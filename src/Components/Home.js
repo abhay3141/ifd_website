@@ -26,7 +26,7 @@ const Home = () => {
       <p style={{ fontWeight: "bold" }}>
         For more information, read our{" "}
         <a
-          href=`${process.env.PUBLIC_URL}/paper_report/audio_deepfake_detection.pdf`
+          href={`${process.env.PUBLIC_URL}/paper_report/audio_deepfake_detection.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "blue", textDecoration: "underline" }}
