@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ifd_website/static/css/main.6a26d100.css",
-    "main.js": "/ifd_website/static/js/main.33224a43.js",
+    "main.js": "/ifd_website/static/js/main.59a6b709.js",
     "index.html": "/ifd_website/index.html",
     "main.6a26d100.css.map": "/ifd_website/static/css/main.6a26d100.css.map",
-    "main.33224a43.js.map": "/ifd_website/static/js/main.33224a43.js.map"
+    "main.59a6b709.js.map": "/ifd_website/static/js/main.59a6b709.js.map"
   },
   "entrypoints": [
     "static/css/main.6a26d100.css",
-    "static/js/main.33224a43.js"
+    "static/js/main.59a6b709.js"
   ]
 }
