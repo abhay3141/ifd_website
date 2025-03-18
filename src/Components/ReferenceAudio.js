@@ -5,16 +5,16 @@ const ReferenceAudio = () => {
 
   // Creating 5 entries (pairing Deepfake and Bonafide samples)
   const referenceClips = [
-    { id: 1, label: "Deepfake Sample 1", src: audioPath+"pc_deepfake.wav", type: "Deepfake" },
-    { id: 2, label: "Deepfake Sample 2", src: audioPath+"cb_deepfake.wav", type: "Deepfake" },
-    { id: 3, label: "Deepfake Sample 3", src: audioPath+"sadhguru_deepfake.wav", type: "Deepfake" },
-    { id: 4, label: "Deepfake Sample 4", src: audioPath+"madhavan_deepfake.wav", type: "Deepfake" },
-    { id: 5, label: "Deepfake Sample 5", src: audioPath+"alia_deepfake.wav", type: "Deepfake" },
-    { id: 6, label: "Bonafide Sample 1", src: audioPath+"pc_bonafide.wav", type: "Bonafide" },
-    { id: 7, label: "Bonafide Sample 2", src: audioPath+"cb_bonafide.wav", type: "Bonafide" },
-    { id: 8, label: "Bonafide Sample 3", src: audioPath+"sadhguru_bonafide.wav", type: "Bonafide" },
-    { id: 9, label: "Bonafide Sample 4", src: audioPath+"madhavan_bonafide.wav", type: "Bonafide" },
-    { id: 10, label: "Bonafide Sample 5", src: audioPath+"alia_bonafide.wav", type: "Bonafide" },
+    { id: 1, label: "Deepfake Sample 1", src: audioPath+"${process.env.PUBLIC_URL}/pc_deepfake.wav", type: "Deepfake" },
+    { id: 2, label: "Deepfake Sample 2", src: audioPath+"${process.env.PUBLIC_URL}/cb_deepfake.wav", type: "Deepfake" },
+    { id: 3, label: "Deepfake Sample 3", src: audioPath+"${process.env.PUBLIC_URL}/sadhguru_deepfake.wav", type: "Deepfake" },
+    { id: 4, label: "Deepfake Sample 4", src: audioPath+"${process.env.PUBLIC_URL}/madhavan_deepfake.wav", type: "Deepfake" },
+    { id: 5, label: "Deepfake Sample 5", src: audioPath+"${process.env.PUBLIC_URL}/alia_deepfake.wav", type: "Deepfake" },
+    { id: 6, label: "Bonafide Sample 1", src: audioPath+"${process.env.PUBLIC_URL}/pc_bonafide.wav", type: "Bonafide" },
+    { id: 7, label: "Bonafide Sample 2", src: audioPath+"${process.env.PUBLIC_URL}/cb_bonafide.wav", type: "Bonafide" },
+    { id: 8, label: "Bonafide Sample 3", src: audioPath+"${process.env.PUBLIC_URL}/sadhguru_bonafide.wav", type: "Bonafide" },
+    { id: 9, label: "Bonafide Sample 4", src: audioPath+"${process.env.PUBLIC_URL}/madhavan_bonafide.wav", type: "Bonafide" },
+    { id: 10, label: "Bonafide Sample 5", src: audioPath+"${process.env.PUBLIC_URL}/alia_bonafide.wav", type: "Bonafide" },
   ];
 
   // Separating Deepfake & Bonafide clips
