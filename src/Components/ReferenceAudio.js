@@ -54,34 +54,6 @@ const ReferenceAudio = () => {
           ))}
         </div>
       </div>
-
-      {/* Styling */}
-      <style jsx>{`
-        .audio-grid {
-          display: flex;
-          justify-content: space-between;
-          gap: 40px;
-        }
-        
-        .audio-column {
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-        
-        .audio-item {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          margin-bottom: 15px;
-          text-align: center;
-        }
-
-        audio {
-          margin-top: 5px;
-        }
-      `}</style>
     </div>
   );
 };
