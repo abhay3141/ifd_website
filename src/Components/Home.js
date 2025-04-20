@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="app-container">
-      <h1>IndieFake Audio Deepfake Detection</h1>
+      <h1>IndieFake Dataset</h1>
       <p className="subtitle">A benchmark dataset for deepfake audio detection.</p>
 
       {/* ====== ADDITIONAL INFORMATION ====== */}
