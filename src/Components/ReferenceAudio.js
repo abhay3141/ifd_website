@@ -1,7 +1,7 @@
 import React from "react";
 
 const ReferenceAudio = () => {
-  const audioPath = "/audios/"; // ✅ Using the same file for simplicity
+  const audioPath = `${process.env.PUBLIC_URL}/audios/`; 
 
   // Creating 5 entries (pairing Deepfake and Bonafide samples)
   const referenceClips = [
